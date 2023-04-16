@@ -1,0 +1,637 @@
+.body1{
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	font-family: 'Jost', sans-serif;
+	background: linear-gradient(to bottom, #393185, #322b7a, #0b0b1d);
+}
+.main{
+	width: 350px;
+	height: 500px;
+	background: red;
+	overflow: hidden;
+	background: url("https://doc-08-2c-docs.googleusercontent.com/docs/securesc/68c90smiglihng9534mvqmq1946dmis5/fo0picsp1nhiucmc0l25s29respgpr4j/1631524275000/03522360960922298374/03522360960922298374/1Sx0jhdpEpnNIydS4rnN4kHSJtU1EyWka?e=view&authuser=0&nonce=gcrocepgbb17m&user=03522360960922298374&hash=tfhgbs86ka6divo3llbvp93mg4csvb38") no-repeat center/ cover;
+	border-radius: 10px;
+	box-shadow: 5px 20px 50px #000;
+}
+#chk{
+	display: none;
+}
+.signup{
+	position: relative;
+	width:100%;
+	height: 100%;
+}
+label{
+	color: #fff;
+	font-size: 2.3em;
+	justify-content: center;
+	display: flex;
+	margin-bottom: 24px;
+	margin-top: 4rem;
+	font-weight: bold;
+	cursor: pointer;
+	transition: .5s ease-in-out;
+}
+input{
+	width: 60%;
+	height: 20px;
+	background: #e0dede;
+	justify-content: center;
+	display: flex;
+	margin: 20px auto;
+	padding: 10px;
+	border: none;
+	outline: none;
+	border-radius: 5px;
+}
+button{
+	width: 60%;
+	height: 40px;
+	margin: 10px auto;
+	justify-content: center;
+	display: block;
+	color: #fff;
+	background: #573b8a;
+	font-size: 1em;
+	font-weight: bold;
+	margin-top: 20px;
+	outline: none;
+	border: none;
+	border-radius: 5px;
+	transition: .2s ease-in;
+	cursor: pointer;
+}
+button:hover{
+	background: #6d44b8;
+}
+.login{
+	height: 460px;
+	background: #eee;
+	border-radius: 60% / 10%;
+	transform: translateY(-180px);
+	transition: .8s ease-in-out;
+	margin-top: 50px;
+}
+.login label{
+	color: #573b8a;
+	transform: scale(.6);
+}
+
+#chk:checked ~ .login{
+	transform: translateY(-500px);
+}
+#chk:checked ~ .login label{
+	transform: scale(1);	
+}
+#chk:checked ~ .signup label{
+	transform: scale(.6);
+}
+
+.logo1{
+    height:4rem;
+    width: 4rem;
+    
+}
+
+#om{
+	display: none;
+}
+
+
+
+/* HOME PAGE */
+
+
+
+#body2{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	min-height: 100vh;
+	font-family: 'Jost', sans-serif;
+	background: linear-gradient(to bottom, #393185, #322b7a, #0b0b1d);
+	display: none;
+}
+
+.head{
+    width: 100%;
+}
+
+.top{
+    display: flex;
+    background-color: white;
+    border: .1rem solid black;
+    border-radius: 2rem;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+i{
+    color: white;
+}
+
+.top1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#logo1{
+    padding-right: 1rem;
+    padding-left: 20rem;
+    padding-top: 1rem;
+}
+
+#txt1{
+    color: white;
+    padding-top: 1rem;
+    
+}
+
+#txt2{
+    padding-left: 1.5rem;
+    color: #393185;
+}
+
+#txt2:hover{
+    color: red;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+#wel{
+    color: white;
+    padding-top: 1rem;
+    padding-left: 25rem;
+	font-size: 1.5rem;
+}
+
+#uname1{
+    color: white;
+    padding-top: 1rem;
+    padding-left: .5rem;
+	font-size: 1.5rem;
+}
+
+.mainportion{
+	display: flex;
+    background-color: white;
+    border: .1rem solid black;
+    border-radius: 2rem;
+    padding: 1rem;
+    margin: 1rem;
+	height: 30rem;
+	background-image:url(car2.png);
+	background-repeat: auto;
+	background-size: 100%;
+	
+}
+
+.mainportion1{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+#maintxt{
+	font-size: 4rem;
+	color: #000000;
+	-webkit-text-stroke-width:.2rem;
+	-webkit-text-stroke-color: black;
+	
+}
+
+#maintxt2{
+	font-size: 1.2rem;
+	color:black;
+	
+}
+
+#maintxt3{
+	font-size: 1.8rem;
+	color:black;
+	
+}
+
+#btnbook{
+	background-color:#2c00ff;
+	color: white;
+	border: .1rem solid black;
+	height: 3rem;
+	width: 25rem;
+}
+
+#btnbook:hover{
+	background-color: #8d7de0;
+	transform: scale(.9);
+}
+
+#aws{
+	color: white;
+	padding: 2rem 32rem 0 32rem;
+	font-size: 1.5rem;
+	
+}
+
+#aws1{
+	color: white;
+	padding:0 35.5rem;
+
+}
+
+.features1{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 25rem;
+	
+	
+}
+
+
+
+#f1{
+	height: 18rem;
+	width: 18rem;
+	background-color: white;
+	margin: 2rem;
+	border: .1rem solid rgb(0, 0, 0);
+	border-radius: 3rem;
+	box-shadow:.2rem .2rem rgb(247, 247, 247);
+}
+
+#f1:hover{
+	transform: scale(.9);
+}
+
+.features2{
+	display: flex;
+	
+	width: 100%;
+	height: 25rem;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+#awshead{
+	color: #2c00ff;
+	margin: 1rem;
+	
+}
+
+#awsp{
+	color: #322b7a;
+	margin: 1rem;
+	
+}
+
+#awsicon{
+	color: #2c00ff;
+	font-size: 3rem;
+	margin: 1rem 7.5rem;
+}
+
+.footerele{
+	width: 100%;
+	height: 30rem;
+	background-color: black;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.foot1{
+	height: 17rem;
+	width: 28%;
+	padding: 2rem;
+	margin: 5rem;
+}
+
+#ftele1{
+	color: white;
+	padding-bottom: 1rem;
+}
+
+#ft1{
+	color: white;
+}
+
+#ftp1{
+	color: white;
+}
+
+#ftp1:hover{
+	color: red;
+	transform: scale(.9);
+	cursor: pointer;
+}
+
+#ftp2{
+	color: white;
+}
+
+#ftp3{
+	color: white;
+}
+
+.ftpp{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+}
+
+
+
+/*booking page*/
+
+.mainbdy{
+	width: 100%;
+}
+
+.bookele{
+	height: 13rem;
+	padding: 1rem 4rem;
+	background-color: white;
+	border: .1rem solid black;
+	border-radius: 2rem;
+	margin: 1rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+
+}
+
+#btnbook1:hover{
+	transform: scale(.9);
+	background-color: red;
+}
+
+#dsc{
+	font-size: 2rem;
+	color: white;
+	padding: 0 26rem;
+}
+
+#dschool{
+	color: #2c00ff;
+}
+#dschool1{
+	color: #020008;
+}
+
+#sdiv{
+	margin: 0 5rem;
+}
+
+#carimg{
+	margin: 0 4rem;
+}
+
+#btnbook1{
+	width: 14rem;
+	height: 3rem;
+	color: white;
+	background-color: #2c00ff;
+	margin: 0 2rem;
+}
+
+
+/*booking page*/
+
+.contentbook{
+	
+	background-color: white;
+	width: 40rem;
+	margin: 3rem 23rem;
+	border: .2rem solid black;
+	border-radius: 2rem;
+}
+
+.o1{
+	color:#2c00ff;
+	font-size: 2rem;
+	margin: 2rem;
+}
+
+#oo2{
+	color: black;
+	margin: 2rem;
+}
+
+.datbook{
+	
+	border: .1rem solid black;
+	color: black
+}
+
+.timebook{
+	
+	border: .1rem solid black;
+	color: black
+}
+
+#bookbutton{
+	width: 60%;
+	height: 3rem;
+	cursor: pointer;
+	background-color: #2c00ff;
+	color: white;
+	margin: 4rem 8rem;
+}
+
+#bookbutton:hover{
+	transform: scale(.9);
+}
+
+#bookingpage1{
+	display: none;
+}
+#bookingpage2{
+	display: none;
+}
+#bookingpage3{
+	display: none;
+}
+#bookingpage4{
+	display: none;
+}
+
+#drivingpage{
+	display: none;
+}
+
+/*-------------------------------*/
+
+#dele{
+	width: 60%;
+	height: 3rem;
+	cursor: pointer;
+	background-color: #2c00ff;
+	color: white;
+	margin: 4rem 8rem;
+}
+
+#dele:hover{
+	transform: scale(.9);
+}
+
+#bking1{
+	color: #2c00ff;
+}
+
+#bking2{
+	color: black;
+}
+
+#bking3{
+	color: black;
+}
+
+
+
+/*responsive*/
+
+@media (max-width:800px) {
+	.main{
+		width:600px;
+	}
+}
+
+@media (max-width:650px) {
+	.main{
+		width:400px;
+	}
+}
+
+@media (max-width:450px) {
+	.main{
+		width:300px;
+	}
+}
+
+@media (max-width:350px) {
+	.main{
+		width:200px;
+	}
+}
+
+@media (max-width:1340px) {
+	#aws1{
+		visibility: hidden;
+	}
+
+	#aws{
+		padding: 2rem 0rem 0rem 5rem;
+	}
+}
+
+@media (max-width:1038px) {
+	.features1{
+		display: block;
+		height: auto;
+
+	}
+	.features2{
+		display: block;
+		height: auto;
+		
+	}
+
+	#f1{
+		height: 18rem;
+		width: auto;
+		background-color: white;
+		margin: 2rem 2rem;
+		border: .1rem solid rgb(0, 0, 0);
+		border-radius: 3rem;
+		box-shadow: .2rem .2rem rgb(247, 247, 247);
+	  
+	}
+}
+
+@media (max-width:1094px) {
+	#wel{
+		padding-left: 28rem;
+	}
+	#logo1{
+		visibility: hidden;
+	}
+	#txt1{
+		visibility: hidden;
+	}
+}
+
+@media (max-width:500px) {
+	#txt2{
+		font-size: 0.8rem;
+	}
+}
+
+@media (max-width:434px) {
+	#txt2{
+		font-size: 0.6rem;
+	}
+}
+
+@media (max-width:434px) {
+	#txt2{
+		font-size: 0.5rem;
+	}
+}
+@media (max-width:338px) {
+	#txt2{
+		font-size: 0.35rem;
+	}
+}
+@media (max-width:280px) {
+	#txt2{
+		font-size: 0.25rem;
+	}
+}
+
+@media (max-width:250px) {
+	#txt2{
+		font-size: 0.1rem;
+	}
+}
+
+
+@media (max-width:572px) {
+	#maintxt{
+		font-size: 3rem;
+	}
+}
+
+@media (max-width:462px) {
+	#maintxt3{
+		font-size: 1.2rem;
+	}
+}
+
+@media (max-width:458px) {
+	#btnbook{
+		width:auto;
+	}
+}
+
+@media (max-width:402px) {
+	#aws{
+		font-size: 1rem;
+	}
+}
+
+@media (max-width:1064px) {
+	.footer{
+		display: none;
+	}
+}
